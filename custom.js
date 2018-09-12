@@ -7,7 +7,7 @@
   var form_type = data.form_type,
     promo_URL = data.promo_url,
     form_config = data.form_config,
-    symbol_code = (type_of_form == 'basic_uk'|| type_of_form == 'premium_uk' ) ? '£' : '$';
+    symbol_code = (form_type == 'basic_uk'|| form_type == 'premium_uk' ) ? '£' : '$';
 
   /**
     * Common Elements
