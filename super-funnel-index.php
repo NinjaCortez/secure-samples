@@ -16,16 +16,14 @@ if($type_of_form_value == 'premium_us') echo '<script type="text/javascript" src
 ?>
 
 
-
-
 <?php
 #My Preference Would be
-
 #Determine Form Location UK || US
 $is_uk = ($form_id == 'basic_uk' || $form_id == 'premium_uk' ) ? true : false;
 $symbol_code_value = ($is_uk) ? '£' : '$';
 #Infusion Soft Script Prefix By Location
 $IS_prefix = ($is_uk) ? 'ph364' : 'pz138';
 ?>
+<?php #Testing Git Desktop ?>
 <!-- Infusionsoft Tracking By Location -->
 <script type="text/javascript" src="https://<?php echo $IS_prefix; ?>.infusionsoft.com/app/webTracking/getTrackingCode"></script>
