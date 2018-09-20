@@ -1,8 +1,8 @@
 <?php
 #Original Code Was Like So
 
-$type_of_form_value    = $form_id;
-$symbol_code_value           = '';
+$type_of_form_value = $form_id;
+$symbol_code_value  = '';
 
 if($type_of_form_value == 'basic_uk'|| $type_of_form_value == 'premium_uk' ){
     $symbol_code_value  = '£';
